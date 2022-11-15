@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "AddRequest";
+}
+
+<h2>Add Request</h2>
+<form action="/Zero/AddRequest" method="post">
+    <table>
+        <tr>
+            <td>
+                <input type="text" placeholder="Name of restaurant" name="RetaurantName" />
+            </td>
+            <td>
+                <input type="text" placeholder="Name of food" name="FoodName" />
+            </td>
+            <td>
+                <input type="text" placeholder="Quantity" name="Quantity" />
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Add Request" />
+</form>
